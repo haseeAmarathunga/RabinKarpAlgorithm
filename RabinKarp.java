@@ -1,9 +1,11 @@
+//Input as Command Line Argument
+//ex: java RabinKarp text pattern
 class RabinKarp
 {
     public static void main(String args[])
     {
-        String txt="hellowworldlo";
-        String pat="lo";
+        String txt=args[0];
+        String pat=args[1];
         Rabin(txt,pat,17);
 
     }
